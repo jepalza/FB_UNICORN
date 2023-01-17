@@ -1,0 +1,56 @@
+[Project]
+Version=3
+Description=Multi Emulador UNICORN
+Api=fb (FreeBASIC),gdip (Gdi+),ogl (OpenGL),sv (Showvars),win (Windows),wx (wx Widgets)
+DefApi=fb (FreeBASIC),gdip (Gdi+),ogl (OpenGL),sv (Showvars),win (Windows),wx (wx Widgets)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=1
+1=Windows Console,fbc -s console
+2=Windows GUI,fbc -s gui
+Output=
+Run=
+Delete=
+[TabOrder]
+CurrentTab=1
+TabOrder=1,2,3,4,5,6,7,8,9
+[File]
+Main=1
+1=uniemu.bas
+2=unicorn.bi
+3=platform.bi
+4=mips.bi
+5=x86.bi
+6=arm.bi
+7=arm64.bi
+8=m68k.bi
+9=sparc.bi
+[BreakPoint]
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+9=
+[FileInfo]
+1=0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,247,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4=0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5=0,300,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6=0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7=0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8=0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9=0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
